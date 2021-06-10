@@ -7,9 +7,9 @@ export const projects = [
 		name: 'Videogames!',
 		img: [
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620505242/Proyects/Proyecto_Individual_qgppfq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753770/Proyects/Store_n4i4xq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753769/Proyects/Store_2_qxzk9t.png',
 		],
 		description:
@@ -21,9 +21,9 @@ export const projects = [
 		name: 'Videogames!',
 		img: [
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620505242/Proyects/Proyecto_Individual_qgppfq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753770/Proyects/Store_n4i4xq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753769/Proyects/Store_2_qxzk9t.png',
 		],
 		description:
@@ -35,9 +35,9 @@ export const projects = [
 		name: 'Videogames!',
 		img: [
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620505242/Proyects/Proyecto_Individual_qgppfq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753770/Proyects/Store_n4i4xq.png',
-			,
+
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1620753769/Proyects/Store_2_qxzk9t.png',
 		],
 		description:
