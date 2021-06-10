@@ -19,6 +19,11 @@ const ContactStyle = styled.div`
 			left: 0px;
 			top: 0px;
 		}
+
+		.icon {
+			font-size: 2rem;
+			margin: 1rem;
+		}
 	}
 `;
 

@@ -1,8 +1,9 @@
 {
     "navbar": {
-        "about": "About me",
-        "projects": "Projects",
-        "contact": "Contact"
+        "about": "ABOUT ME",
+        "projects": "PROJECTS",
+        "contact": "CONTACT",
+        "testimonial": "TESTIMONIALS"
     }
 
 }
