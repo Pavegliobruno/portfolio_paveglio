@@ -7,7 +7,9 @@ export const Home = () => {
 	const [t] = useTranslation('global');
 	return (
 		<HomeStyle>
-			<a name='home'></a>
+			<a name='home' href='/#'>
+				{' '}
+			</a>
 			<div className='colorCircle'>
 				<img className='profileImg' src={profileImg} alt='profileImg' />
 			</div>

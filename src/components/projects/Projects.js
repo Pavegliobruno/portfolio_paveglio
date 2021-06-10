@@ -7,7 +7,9 @@ export const Projects = () => {
 	return (
 		<ProjectsStyle>
 			<div className='body'>
-				<a className='toProjects' name='projects'></a>
+				<a className='toProjects' name='projects' href='/#'>
+					{' '}
+				</a>
 				{projects &&
 					projects.map((project) => <ProjectCard project={project} />)}
 			</div>

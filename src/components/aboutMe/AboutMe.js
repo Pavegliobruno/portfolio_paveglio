@@ -4,7 +4,10 @@ import AboutStyle from './styled';
 export const AboutMe = () => {
 	return (
 		<AboutStyle>
-			<a name='about'></a>Este es el about
+			<a name='about' href='/#'>
+				{' '}
+			</a>
+			Este es el about
 		</AboutStyle>
 	);
 };

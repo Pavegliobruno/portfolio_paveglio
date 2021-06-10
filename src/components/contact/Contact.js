@@ -15,7 +15,9 @@ export const Contact = () => {
 	return (
 		<ContactStyle>
 			<div className='body'>
-				<a className='toTestimonials' name='contact' />
+				<a className='toTestimonials' name='contact' href='/#'>
+					{' '}
+				</a>
 
 				<a
 					className='icon'
