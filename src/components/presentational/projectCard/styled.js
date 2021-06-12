@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ProjectCardStyle = styled.div`
 	width: 15rem;
 	height: 10rem;
-	border-radius: 1rem;
+	border-radius: 0.4rem;
 	margin: 1.5rem;
 	overflow: hidden;
 	transition: 0.3s;

@@ -6,17 +6,27 @@
         "testimonial": "TESTIMONIOS"
     },
     "home":{
-        "greeting": "¡Hola!, Soy",
+        "greeting": "¡Hola! Soy",
         "role": "Programador Full Stack."
     },
+    "about":{
+        "aboutMe": "Sobre mi",
+        "first": "Soy una persona proactiva, siempre con la curiosidad por aprender nuevas tecnologías y sobre otros campos relacionados. También me desempeño muy bien en equipos de trabajo. Busco seguir creciendo, formándome y perfeccionándome en un entorno amigable, desafiante y productivo.",
+        "second": "Me considero aventurero, curioso, responsable y adaptable. Me gustan la fotografía, viajar, las plantas, la astronomía y el buceo. He participado de forma voluntaria en organizaciones caritativas que ayudan a personas en situación de vulnerabilidad y también en grupos de rescate de animales."
+    },
     "projects":{
+        "projects": "Mis proyectos",
         "videogames": "Descripcion de videojuegos",
         "store": "Descripcion de store",
         "portfolio": "Descripcion de portfolio"
     },
     "testimonials":{
+        "testimonials": "Testimonios",
         "facundo": "Bruno es un profesional responsable y comprometido. Se destaca por su capacidad de análisis y su habilidad de trabajo en equipo. Siempre se mostró dispuesto a resolver los desafíos que se le presentaron con un abordaje innovador, superándose día a día.",
         "camila": "Bruno es un excelente compañero y profesional. Además, siempre está de buen humor, fundamental para la integración del grupo. Siempre está dispuesto a ayudar y cuenta con un conocimiento técnico muy alto. He aprendido mucho trabajando con él. Sin duda, aporta mucho valor en cualquier equipo de trabajo.",
         "alonso": "Bruno es un excelente compañero de equipo, proactivo, de rápido aprendizaje y muy responsable. En el proyecto en el que trabajamos juntos, se desempeñó con una eficiencia increíble."
+    },
+    "contact": {
+        "contact": "Podés encontrarme aqui:"
     }
 }

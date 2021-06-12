@@ -1,9 +1,32 @@
 {
-    "navbar": {
+     "navbar": {
         "about": "ABOUT ME",
         "projects": "PROJECTS",
         "contact": "CONTACT",
         "testimonial": "TESTIMONIALS"
+    },
+    "home":{
+        "greeting": "Hey! I'm",
+        "role": "Full Stack Developer."
+    },
+    "about":{
+        "aboutMe": "About me",
+        "first": "biribiribiri",
+        "second": "cucurrucucu"
+    },
+    "projects":{
+        "projects": "Mi projects",
+        "videogames": "describirrrrr",
+        "store": "describirrrrr",
+        "portfolio": "describirrrrr"
+    },
+    "testimonials":{
+        "testimonials": "sdfsdfsd",
+        "facundo": "gtgdg",
+        "camila": "fgdgdfg",
+        "alonso": "ffsdsf"
+    },
+    "contact": {
+        "contact": "You can find me:"
     }
-
 }

@@ -20,6 +20,17 @@ const ProjectsStyle = styled.div`
 			left: 0px;
 			top: 0px;
 		}
+
+		.title {
+			color: gray;
+			font-size: 4rem;
+			position: absolute;
+			top: 4rem;
+			left: 4rem;
+			opacity: 0.15;
+			font-weight: 600;
+			font-style: italic;
+		}
 	}
 `;
 

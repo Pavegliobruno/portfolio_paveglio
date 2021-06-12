@@ -1,18 +1,17 @@
 import React from 'react';
 import TestimonialsStyle from './styled';
 import {testimonials} from './data';
-import {TestimonialCard} from '../presentational/testimonialCard/TestimonialCard';
+import SliderCards from '../presentational/slider/slider';
 
 export const Testimonials = () => {
 	return (
 		<TestimonialsStyle>
-			<a className='toTestimonials' name='testimonial' href='#/'>
-				{' '}
-			</a>
-			{testimonials &&
-				testimonials.map((testimonial) => (
-					<TestimonialCard testimonial={testimonial} />
-				))}
+			<div className='body'>
+				<a className='toTestimonials' name='testimonial' href='#/'>
+					{' '}
+				</a>
+				<SliderCards data={testimonials} />
+			</div>
 		</TestimonialsStyle>
 	);
 };
