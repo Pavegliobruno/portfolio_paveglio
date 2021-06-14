@@ -32,7 +32,13 @@ code {
 		monospace;
 }
 
-@media (min-width: 360px) and (max-width: 719px) {
+@media (max-width: 319px) {
+	html {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 719px) {
 	html {
 		font-size: 12px;
 	}

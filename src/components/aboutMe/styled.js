@@ -131,21 +131,79 @@ const AboutStyle = styled.div`
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
-		border: 1px solid red;
+		.body {
+			width: 99vw;
+			height: 60vh;
+			margin-top: 0rem;
+			padding-top: 4rem;
+
+			.toAbout {
+				position: absolute;
+				left: 0px;
+				top: 0rem;
+			}
+
+			.title {
+				font-size: 4rem;
+				top: 1rem;
+				left: 1rem;
+			}
+
+			.aboutMe {
+				width: 80vw;
+			}
+
+			.aboutMore {
+				width: 80vw;
+			}
+
+			.iconsDiv {
+				margin-top: 2rem;
+				.icons {
+					align-items: center;
+					margin: 0 1rem;
+				}
+			}
+		}
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
-		html {
-			font-size: 18px;
-			background-color: green;
+		.body {
+			width: 99vw;
+			height: 70vh;
+			margin-top: 0rem;
+			padding-top: 4rem;
+
+			.toAbout {
+				position: absolute;
+				left: 0px;
+				top: 0rem;
+			}
+
+			.title {
+				font-size: 4rem;
+				top: 1rem;
+				left: 1rem;
+			}
+
+			.aboutMe {
+				width: 80vw;
+			}
+
+			.aboutMore {
+				width: 80vw;
+			}
+
+			.iconsDiv {
+				margin-top: 2rem;
+				.icons {
+					margin: 0 1rem;
+				}
+			}
 		}
 	}
 
 	@media (min-width: 1441px) {
-		html {
-			font-size: 18px;
-			background-color: yellow;
-		}
 	}
 `;
 

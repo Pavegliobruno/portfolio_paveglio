@@ -16,8 +16,8 @@
     },
     "projects":{
         "projects": "Mis proyectos",
-        "videogames": "Descripcion de videojuegos",
-        "store": "Descripcion de store",
+        "videogames": "Aplicación para buscar, obtener información y crear videojuegos. Creada usando React.js, Redux, Express, Sequelize y PostgreSQL.",
+        "store": "Tienda de productos electrónicos e informaticos. Creada usando React.js, Redux, Node Js, Express Js, Mongo y Mongoosee. ",
         "portfolio": "Descripcion de portfolio"
     },
     "testimonials":{

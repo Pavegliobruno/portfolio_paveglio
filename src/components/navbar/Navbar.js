@@ -66,11 +66,11 @@ export const Navbar = () => {
 						<a href='#lang' className='language'>
 							{state === 'es' ? (
 								<button className='langBtn' onClick={() => handleChange('en')}>
-									<SiGoogletranslate />
+									<SiGoogletranslate className='langIcon' />
 								</button>
 							) : (
 								<button className='langBtn' onClick={() => handleChange('es')}>
-									<SiGoogletranslate />
+									<SiGoogletranslate className='langIcon' />
 								</button>
 							)}
 						</a>

@@ -25,6 +25,8 @@ const FooterStyle = styled.div`
 	}
 
 	@media (min-width: 360px) and (max-width: 719px) {
+		padding-top: 1.5rem;
+		padding-bottom: 0.5rem;
 		.toTop {
 			right: 2rem;
 			bottom: 1.5rem;
@@ -33,12 +35,22 @@ const FooterStyle = styled.div`
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
+		padding-top: 1.5rem;
+		padding-bottom: 0.5rem;
+		.toTop {
+			right: 2rem;
+			bottom: 1.5rem;
+			font-size: 1.8rem;
+		}
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
-	}
-
-	@media (min-width: 1441px) {
+		padding-top: 3rem;
+		.toTop {
+			right: 3rem;
+			bottom: 1.5rem;
+			font-size: 1.8rem;
+		}
 	}
 `;
 

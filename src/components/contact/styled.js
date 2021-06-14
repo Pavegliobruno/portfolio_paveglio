@@ -55,14 +55,24 @@ const ContactStyle = styled.div`
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
-		html {
-			font-size: 15px;
+		height: 60vh;
+
+		.body {
+			height: 60vh;
+			.contactText {
+				font-size: 1.5rem;
+			}
+			.icon {
+				font-size: 2rem;
+			}
 		}
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
-		html {
-			font-size: 18px;
+		height: 70vh;
+
+		.body {
+			height: 70vh;
 		}
 	}
 

@@ -4,12 +4,12 @@ const ProjectCardStyle = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 90%;
+	width: 80%;
 	background-color: #fff;
 	border-radius: 0.6rem;
 
 	.projectTitle {
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		font-weight: 500;
 		margin: 0.5rem;
 		padding: 0 1rem;
@@ -40,7 +40,7 @@ const ProjectCardStyle = styled.div`
 			display: flex;
 			align-items: center;
 			.icon {
-				font-size: 1.8rem;
+				font-size: 1.6rem;
 			}
 		}
 	}

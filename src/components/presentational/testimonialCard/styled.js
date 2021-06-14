@@ -4,12 +4,11 @@ const TestimonialCardStyle = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 20rem;
+	width: 90%;
 	background-color: #edf2fb;
 	border-radius: 1rem;
-	margin: 1.5rem;
 	padding: 1rem;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	position: relative;
 
 	.imgDiv {
@@ -43,7 +42,7 @@ const TestimonialCardStyle = styled.div`
 		color: gray;
 		font-size: 4rem;
 		position: absolute;
-		top: 85px;
+		top: 70px;
 		left: 20px;
 		opacity: 0.15;
 	}
@@ -51,14 +50,12 @@ const TestimonialCardStyle = styled.div`
 		color: gray;
 		font-size: 4rem;
 		position: absolute;
-		bottom: 65px;
+		bottom: 55px;
 		right: 20px;
 		opacity: 0.15;
 	}
 
 	@media (min-width: 300px) and (max-width: 399px) {
-		width: 20rem;
-		margin: 1rem;
 		padding: 0.5rem;
 
 		.testimonial {

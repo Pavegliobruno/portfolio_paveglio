@@ -114,12 +114,12 @@ const HomeStyle = styled.div`
 	}
 
 	@media (min-width: 980px) and (max-width: 1199px) {
-		height: 80vh;
+		height: 70vh;
 
 		.colorCircle {
 			width: 500px;
 			height: 500px;
-			top: 120px;
+			top: 80px;
 
 			.profileImg {
 			}
@@ -127,7 +127,7 @@ const HomeStyle = styled.div`
 	}
 
 	@media (min-width: 1200px) and (max-width: 1440px) {
-		height: 80vh;
+		height: 75vh;
 
 		.colorCircle {
 			width: 600px;

@@ -47,14 +47,16 @@ const NavbarStyle = styled.div`
 				align-content: center;
 				border: none;
 				background: none;
-				font-size: 1rem;
 
-				&:hover {
-					cursor: pointer;
-				}
+				.langIcon {
+					font-size: 1.3rem;
+					&:hover {
+						cursor: pointer;
+					}
 
-				&:active {
-					transform: scale(0.9);
+					&:active {
+						transform: scale(0.9);
+					}
 				}
 			}
 		}

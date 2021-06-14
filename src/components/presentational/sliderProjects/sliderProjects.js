@@ -18,21 +18,14 @@ function SliderCards({data}) {
 		autoplaySpeed: 3000,
 		responsive: [
 			{
-				breakpoint: 1430,
+				breakpoint: 1600,
 				settings: {
-					arrows: true,
-					slidesToShow: 3,
+					arrows: false,
+					slidesToShow: 2,
 				},
 			},
 			{
-				breakpoint: 1075,
-				settings: {
-					arrows: true,
-					slidesToShow: 1,
-				},
-			},
-			{
-				breakpoint: 600,
+				breakpoint: 720,
 				settings: {
 					arrows: false,
 					slidesToShow: 1,
