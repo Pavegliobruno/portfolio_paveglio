@@ -45,15 +45,9 @@ const TestimonialsStyle = styled.div`
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
-		html {
-			font-size: 18px;
-		}
 	}
 
 	@media (min-width: 1441px) {
-		html {
-			font-size: 18px;
-		}
 	}
 `;
 

@@ -28,13 +28,13 @@ function SliderCards({data}) {
 				breakpoint: 1075,
 				settings: {
 					arrows: true,
-					slidesToShow: 2,
+					slidesToShow: 1,
 				},
 			},
 			{
-				breakpoint: 740,
+				breakpoint: 399,
 				settings: {
-					arrows: true,
+					arrows: false,
 					slidesToShow: 1,
 				},
 			},

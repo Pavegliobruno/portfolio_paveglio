@@ -56,7 +56,25 @@ const TestimonialCardStyle = styled.div`
 		opacity: 0.15;
 	}
 
-	@media (min-width: 360px) and (max-width: 719px) {
+	@media (min-width: 300px) and (max-width: 399px) {
+		width: 20rem;
+		margin: 1rem;
+		padding: 0.5rem;
+
+		.testimonial {
+			margin: 0.7rem;
+			z-index: 1;
+		}
+
+		.quoteOpen {
+			top: 45px;
+		}
+		.quoteClose {
+			bottom: 30px;
+		}
+	}
+
+	@media (min-width: 400px) and (max-width: 719px) {
 		width: 22rem;
 		margin: 1rem;
 		padding: 0.5rem;
@@ -75,21 +93,12 @@ const TestimonialCardStyle = styled.div`
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
-		background-color: blue;
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
-		html {
-			font-size: 18px;
-			background-color: green;
-		}
 	}
 
 	@media (min-width: 1441px) {
-		html {
-			font-size: 18px;
-			background-color: yellow;
-		}
 	}
 `;
 

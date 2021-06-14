@@ -1,15 +1,9 @@
 import styled from 'styled-components';
 
 const CarouselStyle = styled.div`
-	width: 100%;
+	width: 90%;
 	padding: 0 10%;
-	.cb-centermode {
-		margin-bottom: 20px;
-		display: block;
-	}
-	.cb-centermode input {
-		margin-right: 7px;
-	}
+
 	.slick-arrow.slick-prev,
 	.slick-arrow.slick-next {
 		display: flex;

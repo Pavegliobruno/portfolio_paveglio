@@ -131,7 +131,7 @@ const AboutStyle = styled.div`
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
-		background-color: blue;
+		border: 1px solid red;
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
