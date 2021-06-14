@@ -11,14 +11,14 @@
     },
     "about":{
         "aboutMe": "About me",
-        "first": "biribiribiri",
-        "second": "cucurrucucu"
+        "first": "English about",
+        "second": "English about"
     },
     "projects":{
-        "projects": "Mi projects",
-        "videogames": "describirrrrr",
-        "store": "describirrrrr",
-        "portfolio": "describirrrrr"
+        "projects": "My projects",
+        "videogames": "Application to create, obtain information and look for videogames. Built with React.js, Redux, Express, Sequelize and PostgreSQL.",
+        "store": "Store for electronic products and accesories. Built with React.js, Redux, Node Js, Express Js, Mongo and Mongoosee.",
+        "portfolio": "Portfolio that also contains information about my working skills and my contact details."
     },
     "testimonials":{
         "testimonials": "sdfsdfsd",
@@ -27,6 +27,6 @@
         "alonso": "ffsdsf"
     },
     "contact": {
-        "contact": "You can find me:"
+        "contact": "Find me at:"
     }
 }

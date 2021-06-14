@@ -10,15 +10,15 @@
         "role": "Programador Full Stack."
     },
     "about":{
-        "aboutMe": "Sobre mi",
-        "first": "Soy una persona proactiva, siempre con la curiosidad por aprender nuevas tecnologías y sobre otros campos relacionados. También me desempeño muy bien en equipos de trabajo. Busco seguir creciendo, formándome y perfeccionándome en un entorno amigable, desafiante y productivo.",
+        "aboutMe": "Sobre mí",
+        "first": "Soy una persona proactiva, siempre con curiosidad de aprender nuevas tecnologías y sobre otros campos relacionados. Me desempeño muy bien en equipos de trabajo y busco seguir creciendo, formándome y perfeccionándome en un entorno amigable, desafiante y productivo.",
         "second": "Me considero aventurero, curioso, responsable y adaptable. Me gustan la fotografía, viajar, las plantas, la astronomía y el buceo. He participado de forma voluntaria en organizaciones caritativas que ayudan a personas en situación de vulnerabilidad y también en grupos de rescate de animales."
     },
     "projects":{
         "projects": "Mis proyectos",
         "videogames": "Aplicación para buscar, obtener información y crear videojuegos. Creada usando React.js, Redux, Express, Sequelize y PostgreSQL.",
-        "store": "Tienda de productos electrónicos e informaticos. Creada usando React.js, Redux, Node Js, Express Js, Mongo y Mongoosee. ",
-        "portfolio": "Descripcion de portfolio"
+        "store": "Tienda digital de productos electrónicos e informaticos. Creada usando React.js, Redux, Node Js, Express Js, Mongo y Mongoosee.",
+        "portfolio": "Cartera de proyectos que además contiene información sobre mis aptitudes laborales y mis datos de contacto. "
     },
     "testimonials":{
         "testimonials": "Testimonios",
@@ -27,6 +27,6 @@
         "alonso": "Bruno es un excelente compañero de equipo, proactivo, de rápido aprendizaje y muy responsable. En el proyecto en el que trabajamos juntos, se desempeñó con una eficiencia increíble."
     },
     "contact": {
-        "contact": "Podés encontrarme aqui:"
+        "contact": "Podés encontrarme aquí:"
     }
 }

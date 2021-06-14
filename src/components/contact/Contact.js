@@ -3,6 +3,7 @@ import {useTranslation} from 'react-i18next';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import {RiPagesLine} from 'react-icons/ri';
 import {FiMail} from 'react-icons/fi';
+import cv from '../../utils/PaveglioBrunoCv.pdf';
 import ContactStyle from './styled';
 
 export const Contact = () => {
@@ -42,10 +43,8 @@ export const Contact = () => {
 					</a>
 					<a
 						className='icon'
-						target='_blank'
-						href={aboutMe.cv}
-						rel='noopener noreferrer'
-						key={aboutMe + 'a'}
+						href={cv}
+						download='CV Paveglio Bruno - Full Stack'
 					>
 						<RiPagesLine className='icon' key={aboutMe + 'icon'} />
 					</a>
