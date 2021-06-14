@@ -63,7 +63,7 @@ export const Navbar = () => {
 						<a href='#contact'>
 							<li>{t('navbar.contact')}</li>
 						</a>
-						<a className='language'>
+						<a href='#lang' className='language'>
 							{state === 'es' ? (
 								<button className='langBtn' onClick={() => handleChange('en')}>
 									<SiGoogletranslate />
