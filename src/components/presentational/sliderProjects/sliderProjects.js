@@ -8,7 +8,7 @@ import {ProjectCard} from '../projectCard/ProjectCard';
 
 function SliderCards({data}) {
 	const config = {
-		dots: false,
+		dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 3,
