@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectsStyle from './styled';
 import {projects} from './data';
-import {ProjectCard} from '../presentational/projectCard/ProjectCard';
+import SliderCards from '../presentational/sliderProjects/sliderProjects';
 
 export const Projects = () => {
 	return (
@@ -10,8 +10,7 @@ export const Projects = () => {
 				<a className='toProjects' name='projects' href='/#'>
 					{' '}
 				</a>
-				{projects &&
-					projects.map((project) => <ProjectCard project={project} />)}
+				<SliderCards data={projects} />
 			</div>
 		</ProjectsStyle>
 	);

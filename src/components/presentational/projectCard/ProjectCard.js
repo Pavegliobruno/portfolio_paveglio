@@ -1,14 +1,46 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {useTranslation} from 'react-i18next';
 import ProjectCardStyle from './styled';
+import {Carousel} from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import {VscGithubAlt} from 'react-icons/vsc';
 
 export const ProjectCard = ({project}) => {
-	const [state, setState] = useState(true);
+	const [t] = useTranslation('global');
 	return (
-		<ProjectCardStyle
-			onMouseOver={() => setState(false)}
-			onMouseOut={() => setState(true)}
-		>
-			{state ? <img className='img' src={project.img[0]} alt='' /> : 'holis'}
+		<ProjectCardStyle>
+			<span className='projectTitle'>{project.name}</span>
+			<span className='projectDescr'>
+				{t(`projects.${project.description}`)}
+			</span>
+			<div className='imgDiv'>
+				<Carousel
+					showThumbs={false}
+					autoPlay={false}
+					showStatus={false}
+					infiniteLoop={true}
+				>
+					{project &&
+						project.img.map((img) => (
+							<div>
+								<img className='img' src={img} alt='' />
+							</div>
+						))}
+				</Carousel>
+			</div>
+			<div className='sites'>
+				{project.github ? (
+					<a
+						className='iconRef'
+						target='_blank'
+						href={project.github}
+						rel='noopener noreferrer'
+						key={project + 'a'}
+					>
+						<VscGithubAlt className='icon' key={project + 'icon'} />
+					</a>
+				) : null}
+			</div>
 		</ProjectCardStyle>
 	);
 };

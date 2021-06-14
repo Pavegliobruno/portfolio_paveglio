@@ -32,7 +32,7 @@ function SliderCards({data}) {
 				},
 			},
 			{
-				breakpoint: 399,
+				breakpoint: 600,
 				settings: {
 					arrows: false,
 					slidesToShow: 1,

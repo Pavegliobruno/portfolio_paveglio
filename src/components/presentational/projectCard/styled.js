@@ -1,22 +1,48 @@
 import styled from 'styled-components';
 
 const ProjectCardStyle = styled.div`
-	width: 15rem;
-	height: 10rem;
-	border-radius: 0.4rem;
-	margin: 1.5rem;
-	overflow: hidden;
-	transition: 0.3s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	background-color: #fff;
+	border-radius: 0.6rem;
 
-	&:hover {
-		transform: scale(1.02);
-		transition: 0.3s;
+	.projectTitle {
+		font-size: 1.8rem;
+		font-weight: 500;
+		margin: 0.5rem;
+		padding: 0 1rem;
+		border-bottom: 2px solid #e1e2df;
 	}
 
-	.img {
-		/* max-width: 100%; */
-		max-height: 100%;
-		object-fit: contain;
+	.projectDescr {
+		margin: 0.7rem 0.5rem;
+		text-align: center;
+	}
+	.imgDiv {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 0.2rem;
+		.img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+	}
+
+	.sites {
+		padding: 0.7rem;
+		display: flex;
+		align-items: center;
+		.iconRef {
+			display: flex;
+			align-items: center;
+			.icon {
+				font-size: 1.8rem;
+			}
+		}
 	}
 `;
 

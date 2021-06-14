@@ -1,7 +1,7 @@
 import React from 'react';
 import TestimonialsStyle from './styled';
 import {testimonials} from './data';
-import SliderCards from '../presentational/slider/slider';
+import SliderCards from '../presentational/sliderTestimonials/sliderTestimonials';
 
 export const Testimonials = () => {
 	return (
