@@ -1,7 +1,6 @@
 import React from 'react';
-import Slider from 'react-slick';
 import CarouselStyle from './styled';
-// Import css files
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {BiLeftArrowAlt, BiRightArrowAlt} from 'react-icons/bi';
@@ -54,15 +53,13 @@ function SliderCards({data}) {
 
 	return (
 		<CarouselStyle>
-			<div className='carousel-container'>
-				<Slider {...config} prevArrow={<PreviusBtn />} nextArrow={<NextBtn />}>
-					{data
-						? data.map((project) => {
-								return <ProjectCard project={project} />;
-						  })
-						: null}
-				</Slider>
-			</div>
+			<Slider {...config} prevArrow={<PreviusBtn />} nextArrow={<NextBtn />}>
+				{data
+					? data.map((project) => {
+							return <ProjectCard project={project} />;
+					  })
+					: null}
+			</Slider>
 		</CarouselStyle>
 	);
 }

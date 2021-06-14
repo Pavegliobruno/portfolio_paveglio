@@ -9,37 +9,39 @@ export const ProjectCard = ({project}) => {
 	const [t] = useTranslation('global');
 	return (
 		<ProjectCardStyle>
-			<span className='projectTitle'>{project.name}</span>
-			<span className='projectDescr'>
-				{t(`projects.${project.description}`)}
-			</span>
-			<div className='imgDiv'>
-				<Carousel
-					showThumbs={false}
-					autoPlay={false}
-					showStatus={false}
-					infiniteLoop={true}
-				>
-					{project &&
-						project.img.map((img) => (
-							<div>
-								<img className='img' src={img} alt='' />
-							</div>
-						))}
-				</Carousel>
-			</div>
-			<div className='sites'>
-				{project.github ? (
-					<a
-						className='iconRef'
-						target='_blank'
-						href={project.github}
-						rel='noopener noreferrer'
-						key={project + 'a'}
+			<div className='proyectCard'>
+				<span className='projectTitle'>{project.name}</span>
+				<span className='projectDescr'>
+					{t(`projects.${project.description}`)}
+				</span>
+				<div className='imgDiv'>
+					<Carousel
+						showThumbs={false}
+						autoPlay={false}
+						showStatus={false}
+						infiniteLoop={true}
 					>
-						<VscGithubAlt className='icon' key={project + 'icon'} />
-					</a>
-				) : null}
+						{project &&
+							project.img.map((img) => (
+								<div>
+									<img className='img' src={img} alt='' />
+								</div>
+							))}
+					</Carousel>
+				</div>
+				<div className='sites'>
+					{project.github ? (
+						<a
+							className='iconRef'
+							target='_blank'
+							href={project.github}
+							rel='noopener noreferrer'
+							key={project + 'a'}
+						>
+							<VscGithubAlt className='icon' key={project + 'icon'} />
+						</a>
+					) : null}
+				</div>
 			</div>
 		</ProjectCardStyle>
 	);
