@@ -1,6 +1,4 @@
-import React from 'react';
-import {Route} from 'react-router-dom';
-import AppStyle from './AppStyled';
+import React, {useState} from 'react';
 import {Navbar} from './components/navbar/Navbar';
 import {Home} from './components/home/Home';
 import {AboutMe} from './components/aboutMe/AboutMe';
@@ -9,16 +7,29 @@ import {Testimonials} from './components/testimonials/Testimonials';
 import {Contact} from './components/contact/Contact';
 import {Footer} from './components/presentational/footer/Footer';
 
+import {ThemeProvider} from 'styled-components';
+import {lightTheme, darkTheme} from './theme';
+import {GlobalStyles} from './global';
+
 export const App = () => {
+	const [theme, setTheme] = useState('light');
+	const themeToggler = () => {
+		theme === 'light' ? setTheme('dark') : setTheme('light');
+	};
+
+	/* useEffect(() => {
+		storage.setItem('theme', JSON.stringify(theme));
+	}, [theme]); */
 	return (
-		<AppStyle>
-			<Route exact path='/' component={Navbar} />
-			<Route exact path='/' component={Home} />
-			<Route exact path='/' component={AboutMe} />
-			<Route exact path='/' component={Projects} />
-			<Route exact path='/' component={Testimonials} />
-			<Route exact path='/' component={Contact} />
-			<Route exact path='/' component={Footer} />
-		</AppStyle>
+		<ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+			<GlobalStyles />
+			<Navbar themeToggler={themeToggler} theme={theme} />
+			<Home />
+			<AboutMe />
+			<Projects />
+			<Testimonials />
+			<Contact />
+			<Footer />
+		</ThemeProvider>
 	);
 };

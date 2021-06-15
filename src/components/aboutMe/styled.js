@@ -20,7 +20,7 @@ const AboutStyle = styled.div`
 		}
 
 		.title {
-			color: gray;
+			color: ${({theme}) => theme.titles};
 			font-size: 5rem;
 			position: absolute;
 			top: 5rem;
@@ -53,6 +53,7 @@ const AboutStyle = styled.div`
 					.icon {
 						margin: 1rem 1rem 0.5rem 1rem;
 						transition-duration: 400ms;
+
 						.name {
 							font-size: 0.6rem;
 							font-weight: 500;
@@ -61,6 +62,7 @@ const AboutStyle = styled.div`
 							justify-content: center;
 							align-items: center;
 							align-content: center;
+							color: ${({theme}) => theme.text};
 							.imgDiv {
 								width: 2.6rem;
 								height: 2.6rem;

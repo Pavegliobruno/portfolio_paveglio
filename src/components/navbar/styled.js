@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const NavbarStyle = styled.div`
+	display: flex;
+	justify-content: center;
 	.normalNav {
 		display: flex;
 		justify-content: space-around;
@@ -9,22 +11,45 @@ const NavbarStyle = styled.div`
 		width: 85vw;
 		height: 10vh;
 		padding: 2rem 2rem;
-		/* position: fixed; */
-
+		.item {
+			color: ${({theme}) => theme.text};
+		}
 		.homeItem {
 			font-size: 1.7rem;
 			font-weight: 600;
 			font-family: 'Megrim', cursive;
+			color: ${({theme}) => theme.text};
 		}
-		.language {
-			.langBtn {
+
+		.lang-theme {
+			display: flex;
+			align-items: center;
+
+			.language {
+				.langBtn {
+					display: flex;
+					justify-content: center;
+					align-content: center;
+					border: none;
+					background: none;
+					font-size: 1.1rem;
+					color: ${({theme}) => theme.text};
+					margin-right: 0.5rem;
+					&:hover {
+						cursor: pointer;
+					}
+
+					&:active {
+						transform: scale(0.9);
+					}
+				}
+			}
+			.themeBtn {
 				display: flex;
-				justify-content: center;
-				align-content: center;
 				border: none;
 				background: none;
-				font-size: 1rem;
-
+				color: ${({theme}) => theme.text};
+				font-size: 1.2rem;
 				&:hover {
 					cursor: pointer;
 				}
@@ -49,7 +74,7 @@ const NavbarStyle = styled.div`
 				background: none;
 
 				.langIcon {
-					font-size: 1.3rem;
+					font-size: 1.7rem;
 					&:hover {
 						cursor: pointer;
 					}
@@ -57,6 +82,18 @@ const NavbarStyle = styled.div`
 					&:active {
 						transform: scale(0.9);
 					}
+				}
+			}
+			.themeBtn {
+				border: none;
+				font-size: 1.7rem;
+				margin-top: 1.4rem;
+				&:hover {
+					cursor: pointer;
+				}
+
+				&:active {
+					transform: scale(0.9);
 				}
 			}
 		}

@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
 import {SiGoogletranslate} from 'react-icons/si';
 import {useTranslation} from 'react-i18next';
+import {RiMoonLine, RiSunLine} from 'react-icons/ri';
 import NavbarStyle from './styled';
 
-export const Navbar = () => {
+export const Navbar = ({themeToggler, theme}) => {
 	const [state, setState] = useState('es');
 	const [t, i18n] = useTranslation('global');
+	console.log('que ondaaa', theme);
 
 	const handleChange = (lang) => {
 		i18n.changeLanguage(lang);
@@ -32,17 +34,28 @@ export const Navbar = () => {
 				<a className='item' href='#contact'>
 					{t('navbar.contact')}
 				</a>
-				<span className='language'>
-					{state === 'es' ? (
-						<button className='langBtn' onClick={() => handleChange('en')}>
-							<SiGoogletranslate />
+				<div className='lang-theme'>
+					<span className='language'>
+						{state === 'es' ? (
+							<button className='langBtn' onClick={() => handleChange('en')}>
+								<SiGoogletranslate />
+							</button>
+						) : (
+							<button className='langBtn' onClick={() => handleChange('es')}>
+								<SiGoogletranslate />
+							</button>
+						)}
+					</span>
+					{theme === 'dark' ? (
+						<button className='themeBtn' onClick={themeToggler}>
+							<RiSunLine />
 						</button>
 					) : (
-						<button className='langBtn' onClick={() => handleChange('es')}>
-							<SiGoogletranslate />
+						<button className='themeBtn' onClick={themeToggler}>
+							<RiMoonLine />
 						</button>
 					)}
-				</span>
+				</div>
 			</div>
 			<nav className='mobileNav' role='navigation'>
 				<div id='menuToggle'>
@@ -71,6 +84,17 @@ export const Navbar = () => {
 							) : (
 								<button className='langBtn' onClick={() => handleChange('es')}>
 									<SiGoogletranslate className='langIcon' />
+								</button>
+							)}
+						</a>
+						<a href='#theme' className='language'>
+							{theme === 'dark' ? (
+								<button className='themeBtn' onClick={themeToggler}>
+									<RiSunLine />
+								</button>
+							) : (
+								<button className='themeBtn' onClick={themeToggler}>
+									<RiMoonLine />
 								</button>
 							)}
 						</a>

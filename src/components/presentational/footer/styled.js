@@ -9,6 +9,7 @@ const FooterStyle = styled.div`
 	font-weight: 400;
 	color: black;
 	padding-top: 4rem;
+	color: ${({theme}) => theme.text};
 
 	.register {
 		display: flex;
@@ -22,6 +23,7 @@ const FooterStyle = styled.div`
 		right: 1rem;
 		bottom: 1rem;
 		font-size: 1.5rem;
+		color: ${({theme}) => theme.text};
 	}
 
 	@media (min-width: 360px) and (max-width: 719px) {

@@ -28,10 +28,12 @@ const TestimonialCardStyle = styled.div`
 		margin: 1rem;
 		z-index: 1;
 		text-align: center;
+		color: ${({theme}) => theme.textReverse};
 	}
 
 	.name {
 		font-weight: 600;
+		color: ${({theme}) => theme.textReverse};
 	}
 
 	.title {

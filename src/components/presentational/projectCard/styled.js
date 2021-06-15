@@ -16,11 +16,13 @@ const ProjectCardStyle = styled.div`
 			margin: 0.5rem;
 			padding: 0 1rem;
 			border-bottom: 2px solid #e1e2df;
+			color: ${({theme}) => theme.textReverse};
 		}
 
 		.projectDescr {
 			margin: 0.7rem 0.5rem;
 			text-align: center;
+			color: ${({theme}) => theme.textReverse};
 		}
 		.imgDiv {
 			width: 100%;

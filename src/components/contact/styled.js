@@ -23,6 +23,7 @@ const ContactStyle = styled.div`
 		.contactText {
 			font-size: 2rem;
 			text-align: justify;
+			color: ${({theme}) => theme.textReverse};
 		}
 
 		.contacts {
@@ -32,6 +33,7 @@ const ContactStyle = styled.div`
 			font-size: 2.5rem;
 			margin: 1rem;
 			transition-duration: 400ms;
+			color: ${({theme}) => theme.textReverse};
 
 			&:hover {
 				transform: scale(1.05);
