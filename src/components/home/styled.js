@@ -50,8 +50,8 @@ const HomeStyle = styled.div`
 			justify-content: center;
 			align-items: flex-end;
 			background-color: #2fa6dd; //f8b545
-			width: 230px;
-			height: 230px;
+			width: 250px;
+			height: 250px;
 			border-radius: 100%;
 			position: static;
 

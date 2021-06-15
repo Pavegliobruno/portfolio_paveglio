@@ -94,7 +94,7 @@ const AboutStyle = styled.div`
 	@media (min-width: 360px) and (max-width: 719px) {
 		.body {
 			width: 99vw;
-			height: 83vh;
+			height: 66vh;
 			font-size: 1rem;
 			margin-top: 0rem;
 			padding-top: 0rem;
@@ -107,7 +107,7 @@ const AboutStyle = styled.div`
 
 			.title {
 				font-size: 4rem;
-				top: 1rem;
+				top: 0rem;
 				left: 1rem;
 			}
 
