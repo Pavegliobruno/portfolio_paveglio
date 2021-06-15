@@ -17,4 +17,16 @@ export const testimonials = [
 		title: 'React developer ',
 		testimonial: 'alonso',
 	},
+	{
+		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623756978/Proyects/Portfolio/1614117745178_xicwm7.jpg',
+		name: 'Juan Martin Cereceda',
+		title: 'Full Stack Developer ',
+		testimonial: 'juanma',
+	},
+	{
+		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623781143/Proyects/Portfolio/1621346044376_h7gsov.jpg',
+		name: 'Pedro Contreras',
+		title: 'Fullstack developer ',
+		testimonial: 'pedro',
+	},
 ];
