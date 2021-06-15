@@ -15,7 +15,7 @@ const FooterStyle = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: #2fa6dd;
+		color: ${({theme}) => theme.skyblue};
 	}
 
 	.toTop {

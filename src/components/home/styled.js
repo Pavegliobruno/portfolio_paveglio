@@ -9,7 +9,7 @@ const HomeStyle = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
-		background-color: #2fa6dd; //f8b545
+		background-color: ${({theme}) => theme.skyblue};
 		width: 700px;
 		height: 700px;
 		border-radius: 100%;
@@ -33,7 +33,7 @@ const HomeStyle = styled.div`
 		font-weight: 500;
 
 		.myName {
-			color: #2fa6dd;
+			color: ${({theme}) => theme.skyblue};;
 		}
 	}
 
@@ -49,7 +49,6 @@ const HomeStyle = styled.div`
 			display: flex;
 			justify-content: center;
 			align-items: flex-end;
-			background-color: #2fa6dd; //f8b545
 			width: 250px;
 			height: 250px;
 			border-radius: 100%;
@@ -69,10 +68,7 @@ const HomeStyle = styled.div`
 			font-size: 2rem;
 			font-weight: 500;
 
-			.myName {
-				color: #2fa6dd;
-			}
-		}
+			
 	}
 
 	@media (min-width: 720px) and (max-width: 979px) {
@@ -87,7 +83,6 @@ const HomeStyle = styled.div`
 			display: flex;
 			justify-content: center;
 			align-items: flex-end;
-			background-color: #2fa6dd; //f8b545
 			width: 300px;
 			height: 300px;
 			border-radius: 100%;
@@ -107,9 +102,7 @@ const HomeStyle = styled.div`
 			font-size: 2rem;
 			font-weight: 500;
 
-			.myName {
-				color: #2fa6dd;
-			}
+			
 		}
 	}
 
@@ -121,8 +114,7 @@ const HomeStyle = styled.div`
 			height: 500px;
 			top: 80px;
 
-			.profileImg {
-			}
+			
 		}
 	}
 
@@ -134,8 +126,7 @@ const HomeStyle = styled.div`
 			height: 600px;
 			top: 70px;
 
-			.profileImg {
-			}
+			
 		}
 	}
 

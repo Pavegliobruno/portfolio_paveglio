@@ -5,6 +5,7 @@ export const lightTheme = {
 	gradient: 'linear-gradient(#39598A, #79D7ED)',
 	titles: 'gray',
 	textReverse: '#161b22',
+	skyblue: '#2fa6dd',
 };
 
 export const darkTheme = {
@@ -14,4 +15,5 @@ export const darkTheme = {
 	gradient: 'linear-gradient(#091236, #1E215D)',
 	titles: '#FFF',
 	textReverse: '#161b22',
+	skyblue: '#00A8CC',
 };
