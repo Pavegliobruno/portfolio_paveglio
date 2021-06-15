@@ -87,7 +87,6 @@ const NavbarStyle = styled.div`
 			.themeBtn {
 				border: none;
 				font-size: 1.7rem;
-				margin-top: 1.4rem;
 				&:hover {
 					cursor: pointer;
 				}
@@ -97,6 +96,21 @@ const NavbarStyle = styled.div`
 				}
 			}
 		}
+
+		.darkMode {
+			background: none;
+			display: flex;
+			object-fit: center;
+			.themeBtn {
+				border: none;
+				background: none;
+				font-size: 1.7rem;
+				margin-top: 1.4rem;
+				display: flex;
+				object-fit: center;
+			}
+		}
+
 		#menuToggle {
 			display: block;
 			position: relative;

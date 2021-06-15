@@ -87,7 +87,7 @@ export const Navbar = ({themeToggler, theme}) => {
 								</button>
 							)}
 						</a>
-						<a href='#theme' className='language'>
+						<a href='#theme' className='darkMode'>
 							{theme === 'dark' ? (
 								<button className='themeBtn' onClick={themeToggler}>
 									<RiSunLine />

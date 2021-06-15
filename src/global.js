@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background: ${({theme}) => theme.body};
         color: ${({theme}) => theme.text};
-		transition: all 0.35s linear;
+		transition: all 0.5s linear;
         height: 100vh;
         margin: 0;
     }
@@ -21,10 +21,12 @@ export const GlobalStyles = createGlobalStyle`
 	padding: 0;
 	box-sizing: border-box;
 	outline: none;
+	
 }
 
 html {
 	scroll-behavior: smooth;
+	
 }
 
 a {
