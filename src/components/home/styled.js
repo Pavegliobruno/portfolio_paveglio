@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 const HomeStyle = styled.div`
 	display: flex;
-	width: 100vw;
-	padding-top: 10vh;	
+	padding-top: 10vh;
 
 	.colorCircle {
 		display: flex;
@@ -33,7 +32,7 @@ const HomeStyle = styled.div`
 		font-weight: 500;
 
 		.myName {
-			color: ${({theme}) => theme.skyblue};;
+			color: ${({theme}) => theme.skyblue};
 		}
 	}
 
@@ -42,9 +41,10 @@ const HomeStyle = styled.div`
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		height: 60vh;
+		/* height: 60vh;
+		padding-top: 0vh; */
+		padding: 4.5rem 0;
 		width: 100vw;
-padding-top: 0vh;
 		.colorCircle {
 			display: flex;
 			justify-content: center;
@@ -67,8 +67,7 @@ padding-top: 0vh;
 			justify-content: center;
 			font-size: 2rem;
 			font-weight: 500;
-
-			
+		}
 	}
 
 	@media (min-width: 720px) and (max-width: 979px) {
@@ -76,7 +75,7 @@ padding-top: 0vh;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		height: 60vh;
+		padding: 4.5rem 0;
 		width: 100vw;
 		.colorCircle {
 			display: flex;
@@ -100,32 +99,26 @@ padding-top: 0vh;
 			justify-content: center;
 			font-size: 2rem;
 			font-weight: 500;
-
-			
 		}
 	}
 
 	@media (min-width: 980px) and (max-width: 1199px) {
-		height: 70vh;
+		padding: 3.5rem 0 5rem 0;
 
 		.colorCircle {
 			width: 500px;
 			height: 500px;
 			top: 80px;
-
-			
 		}
 	}
 
 	@media (min-width: 1200px) and (max-width: 1440px) {
-		height: 75vh;
+		padding: 3.5rem 0 5rem 0;
 
 		.colorCircle {
 			width: 600px;
 			height: 600px;
 			top: 70px;
-
-			
 		}
 	}
 

@@ -13,8 +13,7 @@ const AboutStyle = styled.div`
 
 		.toAbout {
 			position: absolute;
-			left: 0px;
-			top: 3rem;
+			top: -3rem;
 		}
 
 		.title {
@@ -94,12 +93,6 @@ const AboutStyle = styled.div`
 			margin-top: 1rem;
 			font-size: 1rem;
 
-			.toAbout {
-				position: absolute;
-				left: 0px;
-				top: 3rem;
-			}
-
 			.title {
 				font-size: 4rem;
 				top: 0rem;
@@ -121,11 +114,6 @@ const AboutStyle = styled.div`
 		.body {
 			font-size: 1rem;
 			margin-top: 0rem;
-			.toAbout {
-				position: absolute;
-				left: 0px;
-				top: 3rem;
-			}
 
 			.title {
 				font-size: 4rem;
@@ -148,11 +136,6 @@ const AboutStyle = styled.div`
 		.body {
 			padding: 4rem 4rem;
 			margin-top: 0rem;
-			.toAbout {
-				position: absolute;
-				left: 0px;
-				top: 3rem;
-			}
 
 			.title {
 				font-size: 4rem;
@@ -172,11 +155,6 @@ const AboutStyle = styled.div`
 	@media (min-width: 1441px) {
 		.body {
 			padding: 4rem 4rem;
-			.toAbout {
-				position: absolute;
-				left: 0px;
-				top: 3rem;
-			}
 
 			.title {
 				font-size: 4rem;

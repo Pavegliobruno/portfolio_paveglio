@@ -45,16 +45,16 @@ const TestimonialCardStyle = styled.div`
 			color: gray;
 			font-size: 4rem;
 			position: absolute;
-			top: 70px;
-			left: 20px;
+			top: 4.5rem;
+			left: 2rem;
 			opacity: 0.15;
 		}
 		.quoteClose {
 			color: gray;
 			font-size: 4rem;
 			position: absolute;
-			bottom: 55px;
-			right: 20px;
+			bottom: 4rem;
+			right: 2rem;
 			opacity: 0.15;
 		}
 	}
