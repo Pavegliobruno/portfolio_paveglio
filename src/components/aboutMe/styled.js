@@ -9,7 +9,7 @@ const AboutStyle = styled.div`
 		position: relative;
 		width: 100vw;
 		font-size: 1.3rem;
-		padding: 3.5rem 3rem;
+		padding: 3.5rem 5rem;
 
 		.toAbout {
 			position: absolute;
@@ -92,7 +92,7 @@ const AboutStyle = styled.div`
 		.body {
 			margin-top: 1rem;
 			font-size: 1rem;
-
+			padding: 3.5rem 4rem;
 			.title {
 				font-size: 4rem;
 				top: 0rem;
@@ -154,7 +154,7 @@ const AboutStyle = styled.div`
 
 	@media (min-width: 1441px) {
 		.body {
-			padding: 4rem 4rem;
+			padding: 4rem 6rem;
 
 			.title {
 				font-size: 4rem;

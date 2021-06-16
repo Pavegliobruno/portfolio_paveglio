@@ -5,9 +5,8 @@ import {RiMoonLine, RiSunLine} from 'react-icons/ri';
 import NavbarStyle from './styled';
 
 export const Navbar = ({themeToggler, theme}) => {
-	const [state, setState] = useState('es');
 	const [t, i18n] = useTranslation('global');
-	console.log('que ondaaa', theme);
+	const [state, setState] = useState(i18n.language);
 
 	const handleChange = (lang) => {
 		i18n.changeLanguage(lang);
