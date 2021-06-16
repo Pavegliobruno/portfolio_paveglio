@@ -4,6 +4,7 @@ const HomeStyle = styled.div`
 	display: flex;
 	height: 89vh;
 	width: 100vw;
+	padding-top: 10vh;
 
 	.colorCircle {
 		display: flex;
@@ -44,7 +45,7 @@ const HomeStyle = styled.div`
 		align-items: center;
 		height: 60vh;
 		width: 100vw;
-
+padding-top: 0vh;
 		.colorCircle {
 			display: flex;
 			justify-content: center;
@@ -78,7 +79,6 @@ const HomeStyle = styled.div`
 		align-items: center;
 		height: 60vh;
 		width: 100vw;
-
 		.colorCircle {
 			display: flex;
 			justify-content: center;

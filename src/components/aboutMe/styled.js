@@ -7,11 +7,10 @@ const AboutStyle = styled.div`
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		height: 98vh;
 		width: 100vw;
 		font-size: 1.3rem;
 		margin-top: 3rem;
-		padding-top: 6rem;
+		padding: 3.5rem 3rem;
 
 		.toAbout {
 			position: absolute;
@@ -31,13 +30,11 @@ const AboutStyle = styled.div`
 		}
 
 		.aboutMe {
-			width: 60vw;
 			margin-bottom: 1rem;
 			text-align: justify;
 		}
 
 		.aboutMore {
-			width: 60vw;
 			text-align: justify;
 		}
 
@@ -95,11 +92,7 @@ const AboutStyle = styled.div`
 
 	@media (min-width: 360px) and (max-width: 719px) {
 		.body {
-			width: 99vw;
-			height: 66vh;
 			font-size: 1rem;
-			margin-top: 0rem;
-			padding-top: 0rem;
 
 			.toAbout {
 				position: absolute;
@@ -111,14 +104,6 @@ const AboutStyle = styled.div`
 				font-size: 4rem;
 				top: 0rem;
 				left: 1rem;
-			}
-
-			.aboutMe {
-				width: 80vw;
-			}
-
-			.aboutMore {
-				width: 80vw;
 			}
 
 			.iconsDiv {
@@ -134,32 +119,22 @@ const AboutStyle = styled.div`
 
 	@media (min-width: 720px) and (max-width: 1126px) {
 		.body {
-			width: 99vw;
-			height: 60vh;
-			margin-top: 0rem;
-			padding-top: 4rem;
+			font-size: 1rem;
 
 			.toAbout {
 				position: absolute;
 				left: 0px;
-				top: 0rem;
+				top: 3rem;
 			}
 
 			.title {
 				font-size: 4rem;
-				top: 1rem;
+				top: 0rem;
 				left: 1rem;
 			}
 
-			.aboutMe {
-				width: 80vw;
-			}
-
-			.aboutMore {
-				width: 80vw;
-			}
-
 			.iconsDiv {
+				flex-direction: column;
 				margin-top: 2rem;
 				.icons {
 					align-items: center;
@@ -171,29 +146,17 @@ const AboutStyle = styled.div`
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
 		.body {
-			width: 99vw;
-			height: 70vh;
-			margin-top: 0rem;
-			padding-top: 4rem;
-
+			padding: 4rem 4rem;
 			.toAbout {
 				position: absolute;
 				left: 0px;
-				top: 0rem;
+				top: 3rem;
 			}
 
 			.title {
 				font-size: 4rem;
-				top: 1rem;
+				top: 0rem;
 				left: 1rem;
-			}
-
-			.aboutMe {
-				width: 80vw;
-			}
-
-			.aboutMore {
-				width: 80vw;
 			}
 
 			.iconsDiv {
@@ -206,6 +169,27 @@ const AboutStyle = styled.div`
 	}
 
 	@media (min-width: 1441px) {
+		.body {
+			padding: 4rem 4rem;
+			.toAbout {
+				position: absolute;
+				left: 0px;
+				top: 3rem;
+			}
+
+			.title {
+				font-size: 4rem;
+				top: 0rem;
+				left: 1rem;
+			}
+
+			.iconsDiv {
+				margin-top: 2rem;
+				.icons {
+					margin: 0 1rem;
+				}
+			}
+		}
 	}
 `;
 

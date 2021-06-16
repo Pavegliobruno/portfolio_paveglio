@@ -3,6 +3,11 @@ import styled from 'styled-components';
 const NavbarStyle = styled.div`
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	background-color: ${({theme}) => theme.body};
+	width: 100vw;
+	z-index: 1;
+
 	.normalNav {
 		display: flex;
 		justify-content: space-around;
@@ -240,6 +245,8 @@ const NavbarStyle = styled.div`
 	}
 
 	@media (min-width: 360px) and (max-width: 719px) {
+		position: static;
+		background-color: none;
 		.normalNav {
 			display: none;
 		}
