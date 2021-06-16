@@ -9,7 +9,6 @@ const AboutStyle = styled.div`
 		position: relative;
 		width: 100vw;
 		font-size: 1.3rem;
-		margin-top: 3rem;
 		padding: 3.5rem 3rem;
 
 		.toAbout {
@@ -92,6 +91,7 @@ const AboutStyle = styled.div`
 
 	@media (min-width: 360px) and (max-width: 719px) {
 		.body {
+			margin-top: 1rem;
 			font-size: 1rem;
 
 			.toAbout {
@@ -120,7 +120,7 @@ const AboutStyle = styled.div`
 	@media (min-width: 720px) and (max-width: 1126px) {
 		.body {
 			font-size: 1rem;
-
+			margin-top: 0rem;
 			.toAbout {
 				position: absolute;
 				left: 0px;
@@ -147,6 +147,7 @@ const AboutStyle = styled.div`
 	@media (min-width: 1127px) and (max-width: 1440px) {
 		.body {
 			padding: 4rem 4rem;
+			margin-top: 0rem;
 			.toAbout {
 				position: absolute;
 				left: 0px;

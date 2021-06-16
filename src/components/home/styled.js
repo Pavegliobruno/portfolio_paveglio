@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 const HomeStyle = styled.div`
 	display: flex;
-	height: 89vh;
 	width: 100vw;
-	padding-top: 10vh;
+	padding-top: 10vh;	
 
 	.colorCircle {
 		display: flex;
@@ -16,7 +15,7 @@ const HomeStyle = styled.div`
 		border-radius: 100%;
 		position: relative;
 		left: -60px;
-		top: 30px;
+		top: 10px;
 		overflow: hidden;
 
 		.profileImg {

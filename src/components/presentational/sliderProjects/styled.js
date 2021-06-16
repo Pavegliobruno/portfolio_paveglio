@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const CarouselStyle = styled.div`
-	width: 80%;
+	width: 85%;
 
 	.slick-arrow.slick-prev,
 	.slick-arrow.slick-next {

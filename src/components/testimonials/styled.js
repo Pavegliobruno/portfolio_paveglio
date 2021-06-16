@@ -10,7 +10,7 @@ const TestimonialsStyle = styled.div`
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		height: 98vh;
+		padding: 5rem 0;
 		width: 100vw;
 		transform: skewY(4deg);
 
@@ -33,24 +33,24 @@ const TestimonialsStyle = styled.div`
 	}
 
 	@media (min-width: 360px) and (max-width: 719px) {
-		.body {
-			height: 60vh;
-		}
 	}
 
 	@media (min-width: 720px) and (max-width: 1126px) {
 		.body {
-			height: 60vh;
+			padding: 6rem 0;
 		}
 	}
 
 	@media (min-width: 1127px) and (max-width: 1440px) {
 		.body {
-			height: 80vh;
+			padding: 6rem 0;
 		}
 	}
 
 	@media (min-width: 1441px) {
+		.body {
+			padding: 8rem 0;
+		}
 	}
 `;
 
