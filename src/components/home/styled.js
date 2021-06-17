@@ -119,7 +119,17 @@ const HomeStyle = styled.div`
 		}
 	}
 
-	@media (min-width: 1441px) {
+	@media (min-width: 1600px) {
+		justify-content: space-evenly;
+		.colorCircle {
+			width: 800px;
+			height: 800px;
+			position: static;
+		}
+
+		.titleDiv {
+			font-size: 3.5rem;
+		}
 	}
 `;
 
