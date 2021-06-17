@@ -7,7 +7,7 @@ const TestimonialCardStyle = styled.div`
 		flex-direction: column;
 		align-items: center;
 		margin: 3%;
-		background-color: #edf2fb;
+		background-color: ${({theme}) => theme.testback};
 		border-radius: 1rem;
 		padding: 1rem;
 		position: relative;
@@ -29,16 +29,16 @@ const TestimonialCardStyle = styled.div`
 			margin: 1rem;
 			z-index: 1;
 			text-align: center;
-			color: ${({theme}) => theme.textReverse};
+			color: ${({theme}) => theme.text};
 		}
 
 		.name {
 			font-weight: 600;
-			color: ${({theme}) => theme.textReverse};
+			color: ${({theme}) => theme.text};
 		}
 
 		.title {
-			color: #2fa6dd;
+			color: ${({theme}) => theme.skyblue};
 		}
 
 		.quoteOpen {

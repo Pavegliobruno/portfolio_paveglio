@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {SiGoogletranslate} from 'react-icons/si';
 import {useTranslation} from 'react-i18next';
 import {RiMoonLine, RiSunLine} from 'react-icons/ri';
 import NavbarStyle from './styled';
@@ -37,11 +36,11 @@ export const Navbar = ({themeToggler, theme}) => {
 					<span className='language'>
 						{state === 'es' ? (
 							<button className='langBtn' onClick={() => handleChange('en')}>
-								<SiGoogletranslate />
+								EN
 							</button>
 						) : (
 							<button className='langBtn' onClick={() => handleChange('es')}>
-								<SiGoogletranslate />
+								ES
 							</button>
 						)}
 					</span>
@@ -78,11 +77,11 @@ export const Navbar = ({themeToggler, theme}) => {
 						<a href='#lang' className='language'>
 							{state === 'es' ? (
 								<button className='langBtn' onClick={() => handleChange('en')}>
-									<SiGoogletranslate className='langIcon' />
+									EN
 								</button>
 							) : (
 								<button className='langBtn' onClick={() => handleChange('es')}>
-									<SiGoogletranslate className='langIcon' />
+									ES
 								</button>
 							)}
 						</a>

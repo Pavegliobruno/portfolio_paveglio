@@ -7,7 +7,7 @@ const ProjectCardStyle = styled.div`
 		flex-direction: column;
 		align-items: center;
 		margin: 3%;
-		background-color: #fff;
+		background-color: ${({theme}) => theme.body};
 		border-radius: 0.6rem;
 
 		.projectTitle {
@@ -16,13 +16,13 @@ const ProjectCardStyle = styled.div`
 			margin: 0.5rem;
 			padding: 0 1rem;
 			border-bottom: 2px solid #e1e2df;
-			color: ${({theme}) => theme.textReverse};
+			color: ${({theme}) => theme.text};
 		}
 
 		.projectDescr {
 			margin: 0.7rem 0.5rem;
 			text-align: center;
-			color: ${({theme}) => theme.textReverse};
+			color: ${({theme}) => theme.text};
 		}
 		.imgDiv {
 			width: 100%;
@@ -45,6 +45,7 @@ const ProjectCardStyle = styled.div`
 				align-items: center;
 				.icon {
 					font-size: 1.6rem;
+					color: ${({theme}) => theme.text};
 				}
 			}
 		}
