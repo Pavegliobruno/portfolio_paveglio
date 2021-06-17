@@ -4,6 +4,7 @@ const NavbarStyle = styled.div`
 	display: flex;
 	justify-content: center;
 	position: fixed;
+	top: 0;
 	background-color: ${({theme}) => theme.body};
 	width: 100vw;
 	z-index: 1;
