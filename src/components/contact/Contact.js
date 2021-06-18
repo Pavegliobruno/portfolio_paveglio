@@ -7,13 +7,16 @@ import cv from '../../utils/PaveglioBrunoCv.pdf';
 import ContactStyle from './styled';
 
 export const Contact = () => {
-	const [t] = useTranslation('global');
+	const [t, i18n] = useTranslation('global');
 	let aboutMe = {
 		email:
 			'https://mail.google.com/mail/u/0/?fs=1&to=pavegliobruno@gmail.com&tf=cm',
 		linkedin: 'https://www.linkedin.com/in/pavegliobruno/',
 		github: 'https://github.com/Pavegliobruno',
-		cv: 'https://drive.google.com/drive/folders/1ltpZjk-YCHUSK4JWtLGcPSjjm98nLtOa?usp=sharing',
+		cv: {
+			es: 'https://drive.google.com/file/d/1righLhxb_MX11vslZmvJagYlXOEc3UM2/view?usp=sharing',
+			en: 'https://drive.google.com/file/d/1righLhxb_MX11vslZmvJagYlXOEc3UM2/view?usp=sharing',
+		},
 	};
 	return (
 		<ContactStyle>
@@ -41,13 +44,24 @@ export const Contact = () => {
 					>
 						<AiFillGithub className='icon' key={aboutMe + 'icon'} />
 					</a>
-					<a
-						className='icon'
-						href={cv}
-						download='CV Paveglio Bruno - Full Stack'
-					>
-						<RiPagesLine className='icon' key={aboutMe + 'icon'} />
-					</a>
+					{i18n.language === 'es' ? (
+						<a
+							className='icon'
+							href={aboutMe.cv.es}
+							download='CV Paveglio Bruno - Full Stack'
+						>
+							<RiPagesLine className='icon' key={'cv es'} /> {cv.es}
+						</a>
+					) : (
+						<a
+							className='icon'
+							href={aboutMe.cv.en}
+							download='CV Paveglio Bruno - Full Stack'
+						>
+							<RiPagesLine className='icon' key={'cv en'} />
+						</a>
+					)}
+
 					<a
 						className='icon'
 						target='_blank'

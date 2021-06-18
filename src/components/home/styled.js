@@ -48,8 +48,8 @@ const HomeStyle = styled.div`
 			display: flex;
 			justify-content: center;
 			align-items: flex-end;
-			width: 280px;
-			height: 280px;
+			width: 85%;
+			height: auto;
 			border-radius: 100%;
 			position: static;
 
@@ -64,7 +64,7 @@ const HomeStyle = styled.div`
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			font-size: 2.1rem;
+			font-size: 2.2rem;
 			font-weight: 500;
 		}
 	}

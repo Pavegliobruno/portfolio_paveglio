@@ -26,7 +26,7 @@ export const projects = [
 	{
 		name: 'My portfolio.',
 		img: [
-			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623695931/Proyects/Portfolio/P-2_sqribl.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624052305/Proyects/Portfolio/Screenshot_1_njfbuy.png',
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623695932/Proyects/Portfolio/P-1_sudmtl.png',
 		],
 		description: 'portfolio',

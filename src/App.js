@@ -6,7 +6,6 @@ import {Projects} from './components/projects/Projects';
 import {Testimonials} from './components/testimonials/Testimonials';
 import {Contact} from './components/contact/Contact';
 import {Footer} from './components/presentational/footer/Footer';
-
 import {ThemeProvider} from 'styled-components';
 import {lightTheme, darkTheme} from './theme';
 import {GlobalStyles} from './global';
@@ -17,9 +16,6 @@ export const App = () => {
 		theme === 'light' ? setTheme('dark') : setTheme('light');
 	};
 
-	/* useEffect(() => {
-		storage.setItem('theme', JSON.stringify(theme));
-	}, [theme]); */
 	return (
 		<ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
 			<GlobalStyles />

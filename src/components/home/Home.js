@@ -1,6 +1,7 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import HomeStyle from './styled';
+import profileImg from '../../utils/images/pic.png';
 
 export const Home = () => {
 	const [t] = useTranslation('global');
@@ -10,13 +11,7 @@ export const Home = () => {
 				{' '}
 			</a>
 			<div className='colorCircle'>
-				<img
-					className='profileImg'
-					src={
-						'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624035478/Proyects/Portfolio/Prueba3_vje7cc.png'
-					}
-					alt='profileImg'
-				/>
+				<img className='profileImg' src={profileImg} alt='profileImg' />
 			</div>
 			<div className='titleDiv'>
 				<span>{t('home.greeting')}</span>
