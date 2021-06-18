@@ -1,7 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import HomeStyle from './styled';
-import profileImg from '../../utils/images/klipartz.com.png';
 
 export const Home = () => {
 	const [t] = useTranslation('global');
