@@ -14,7 +14,7 @@ export const Home = () => {
 				<img
 					className='profileImg'
 					src={
-						'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624033583/Proyects/Portfolio/Prueba1_kvxsni.png'
+						'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624034956/Proyects/Portfolio/Prueba2_a1zjwu.png'
 					}
 					alt='profileImg'
 				/>
