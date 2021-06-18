@@ -11,7 +11,13 @@ export const Home = () => {
 				{' '}
 			</a>
 			<div className='colorCircle'>
-				<img className='profileImg' src={profileImg} alt='profileImg' />
+				<img
+					className='profileImg'
+					src={
+						'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624033583/Proyects/Portfolio/Prueba1_kvxsni.png'
+					}
+					alt='profileImg'
+				/>
 			</div>
 			<div className='titleDiv'>
 				<span>{t('home.greeting')}</span>
