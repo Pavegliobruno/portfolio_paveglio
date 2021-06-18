@@ -48,7 +48,7 @@ const HomeStyle = styled.div`
 			display: flex;
 			justify-content: center;
 			align-items: flex-end;
-			width: 85%;
+			width: 80%;
 			height: auto;
 			border-radius: 100%;
 			position: static;
