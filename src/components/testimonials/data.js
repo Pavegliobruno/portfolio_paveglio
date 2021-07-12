@@ -29,4 +29,10 @@ export const testimonials = [
 		title: 'Fullstack developer ',
 		testimonial: 'pedro',
 	},
+	{
+		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1626133012/Proyects/Portfolio/TPRS7H4PN-U018F3CNRJ6-853898ff17ab-512_a4w78k.png',
+		name: 'Martina Scomazzon',
+		title: 'Computer engineer',
+		testimonial: 'martu',
+	},
 ];
