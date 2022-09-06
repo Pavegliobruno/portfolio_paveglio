@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const ProjectsStyle = styled.div`
 	background-color: ${({theme}) => theme.skyblue};
-	width: 100vw;
+	/* width: 100vw; */
 	transform: skewY(-4deg);
 
 	.body {

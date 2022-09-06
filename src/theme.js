@@ -5,7 +5,7 @@ export const lightTheme = {
 	gradient: 'linear-gradient(#39598A, #79D7ED)',
 	titles: 'gray',
 	textReverse: '#161b22',
-	skyblue: '#2fa6dd',
+	skyblue: '#DADADA',
 	testback: '#edf2fb',
 };
 

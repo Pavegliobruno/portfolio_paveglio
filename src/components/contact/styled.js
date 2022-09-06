@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const ContactStyle = styled.div`
 	background-color: ${({theme}) => theme.skyblue};
-	width: 100vw;
+	/* width: 100vw; */
 	height: 98vh;
 	transform: skewY(-4deg);
 

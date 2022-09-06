@@ -9,7 +9,7 @@ export const Footer = () => {
 			<>
 				BRUNO PAVEGLIO &nbsp;
 				<div className='register'>
-					<RiRegisteredLine /> 2021
+					<RiRegisteredLine /> 2022
 				</div>
 			</>
 			<a className='toTop' href='#top'>
