@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next';
 import ProjectCardStyle from './styled';
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import {VscGithubAlt} from 'react-icons/vsc';
+import {VscGithubAlt, VscGlobe} from 'react-icons/vsc';
 
 export const ProjectCard = ({project}) => {
 	const [t] = useTranslation('global');
@@ -17,7 +17,7 @@ export const ProjectCard = ({project}) => {
 				<div className='imgDiv'>
 					<Carousel
 						showThumbs={false}
-						autoPlay={false}
+						autoPlay={true}
 						showStatus={false}
 						infiniteLoop={true}
 					>
@@ -39,6 +39,18 @@ export const ProjectCard = ({project}) => {
 							key={project + 'a'}
 						>
 							<VscGithubAlt className='icon' key={project + 'icon'} />
+						</a>
+					) : null}
+
+					{project.web ? (
+						<a
+							className='iconRef'
+							target='_blank'
+							href={project.web}
+							rel='noopener noreferrer'
+							key={project + 'a'}
+						>
+							<VscGlobe className='icon' key={project + 'icon'} />
 						</a>
 					) : null}
 				</div>

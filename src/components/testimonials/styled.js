@@ -11,7 +11,7 @@ const TestimonialsStyle = styled.div`
 		align-items: center;
 		position: relative;
 		padding: 5rem 0;
-		width: 100vw;
+		/* width: 100vw; */
 		transform: skewY(4deg);
 
 		.toTestimonials {

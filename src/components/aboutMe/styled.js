@@ -7,7 +7,7 @@ const AboutStyle = styled.div`
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		width: 100vw;
+		/* width: 100vw; */
 		font-size: 1.3rem;
 		padding: 3.5rem 5rem;
 

@@ -4,7 +4,7 @@ const FooterStyle = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
+	/* width: 100vw; */
 	font-size: 0.7rem;
 	font-weight: 400;
 	color: black;
